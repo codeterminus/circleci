@@ -20,7 +20,7 @@ jobs:
           command: |
             echo Wowwww this one is triggered from GitHub! |
             echo top |
-            echo env
+            env
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
