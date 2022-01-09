@@ -17,7 +17,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo Wowwww this one is triggered from GitHub!" & "top"
+          command: "echo Wowwww this one is triggered from GitHub! & top"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
